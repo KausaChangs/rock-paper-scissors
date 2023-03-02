@@ -49,13 +49,13 @@ function getResult() {
     result = "you win!";
   }
   if (computerChoice === "paper" && userChoice === "rock") {
-    result = "you lost!";
+    result = "you lose!";
   }
   if (computerChoice === "rock" && userChoice === "scissors") {
-    result = "you lost!";
+    result = "you lose!";
   }
   if (computerChoice === "scissors" && userChoice === "paper") {
-    result = "you lost!";
+    result = "you lose!";
   }
 
   resultDisplay.innerHTML = result;
